@@ -118,6 +118,7 @@ export default class SaturationValuePicker extends Component {
           <LinearGradient
             style={{
               borderRadius,
+              overflow: 'hidden'
             }}
             colors={[
               '#fff',
