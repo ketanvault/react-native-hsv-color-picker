@@ -147,9 +147,8 @@ export default class HuePicker extends Component {
             styles.slider,
             {
               width: sliderSize,
-              height: sliderSize,
-              borderRadius: sliderSize / 2,
-              borderWidth: sliderSize / 10,
+              height: 0,
+              borderWidth: sliderSize / 8,
               backgroundColor: this.getCurrentColor(),
               transform: [{
                 translateY: this.sliderY,
